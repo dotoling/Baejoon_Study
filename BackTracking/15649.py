@@ -16,8 +16,6 @@ for input_val in input().split():
     input_val_list.append(int(input_val))
 
 total_possible_number = list(range(1,input_val_list[0]+1))
-
-
 NM_Problem([],0,input_val_list[1])
 
 
